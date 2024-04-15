@@ -22,8 +22,8 @@ return new class extends Migration
             $table->decimal('price', 10, 2);
             $table->boolean('is_active')->default(true);
             $table->boolean('is_featured')->default(false);
-            $table->boolean('is_stock')->default(true);
-            $table->boolean('is_sale')->default(false);
+            $table->boolean('in_stock')->default(true);
+            $table->boolean('on_sale')->default(false);
             $table->timestamps();
 
         });
