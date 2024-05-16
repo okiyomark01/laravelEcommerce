@@ -67,7 +67,7 @@ class AddressRelationManager extends RelationManager
 
                 TextColumn::make('city'),
 
-                TextColumn::make('state')
+                TextColumn::make('estate')
                     ->label('Estate'),
 
                 TextColumn::make('zip_code'),

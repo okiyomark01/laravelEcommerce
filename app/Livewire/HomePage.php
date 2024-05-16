@@ -7,7 +7,7 @@ use App\Models\Category;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 
-#[Title('Ecommerce')]
+#[Title('Home Page')]
 class HomePage extends Component
 {
     public function render()
